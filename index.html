@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A청사 2023년 전력 사용량 분석 및 에너지 절약 수칙</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🏢 A청사 2023년 전력 사용량 분석</h1>
+            <p>누진세 적용 전기요금 및 에너지 절약 수칙</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 전력 사용량 요약 섹션 -->
+        <section class="summary-section">
+            <div class="summary-cards">
+                <div class="summary-card">
+                    <div class="card-icon">⚡</div>
+                    <div class="card-content">
+                        <h3>연간 총 사용량</h3>
+                        <p class="big-number" id="total-usage">1,880,327 kWh</p>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-icon">💰</div>
+                    <div class="card-content">
+                        <h3>연간 총 전기요금</h3>
+                        <p class="big-number" id="total-cost">526,778,625 원</p>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-icon">📊</div>
+                    <div class="card-content">
+                        <h3>월평균 사용량</h3>
+                        <p class="big-number" id="avg-usage">156,694 kWh</p>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-icon">💳</div>
+                    <div class="card-content">
+                        <h3>월평균 전기요금</h3>
+                        <p class="big-number" id="avg-cost">43,898,219 원</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 차트 섹션 -->
+        <section class="chart-section">
+            <h2>월별 전력 사용량 및 전기요금</h2>
+            <div class="chart-container">
+                <canvas id="monthlyChart"></canvas>
+            </div>
+        </section>
+
+        <!-- 에너지 절약 수칙 섹션 -->
+        <section class="tips-section">
+            <h2>💡 에너지 절약 수칙 10가지</h2>
+            <div class="tips-grid" id="tips-grid">
+                <!-- JavaScript로 동적 생성 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 A청사 에너지 관리 시스템. 환경을 생각하는 스마트한 에너지 사용.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
