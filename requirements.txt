@@ -1,0 +1,10 @@
+streamlit
+groq
+requests
+xmltodict
+pandas
+python-dateutil
+# optional:
+# orjson
+# msgspec
+# supabase
