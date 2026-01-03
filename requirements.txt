@@ -1,7 +1,12 @@
-streamlit==1.32.2
-requests==2.31.0
-xmltodict==0.13.0
-python-dateutil==2.9.0.post0
+streamlit>=1.37
+requests>=2.31
+xmltodict>=0.13
+python-dateutil>=2.9
+groq>=0.9.0
 
-groq==0.9.0
-supabase==2.4.6
+# optional (성능/JSON)
+orjson>=3.10
+msgspec>=0.18
+
+# optional (네 코드에 supabase 쓴다면 유지)
+supabase>=2.4.6
